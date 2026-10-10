@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+<title id="title">Percent-General-9B</title><desc id="desc">Local test-exposed Decision Index reference score71.49. Thirty-eight benchmarks and seven workflow scenarios.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#132943"/><stop offset="1" stop-color="#174760"/></linearGradient></defs>
+<rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+<g fill="none" stroke="#7edcc5" stroke-opacity=".12"><path d="M850 0v340M970 0v340M1090 0v340M1210 0v340M800 60h480M800 140h480M800 220h480M800 300h480"/><circle cx="1090" cy="140" r="72"/><path d="M880 240l90-100 120 80 120-160"/></g>
+<g font-family="system-ui, sans-serif"><text x="58" y="54" fill="#8ce5cf" font-size="16" letter-spacing="4">PERCENT / DECISION MODELS</text>
+<text x="56" y="124" fill="white" font-size="58" font-weight="700">Percent-General-9B</text>
+<text x="59" y="162" fill="#cddbe7" font-size="21">Structured choices. Actual feedback. Recorded trajectories.</text>
+<text x="60" y="235" fill="white" font-size="39" font-weight="650">71.49</text><text x="60" y="265" fill="#c7dbe6" font-size="16">38-task reference score</text>
+<text x="400" y="235" fill="white" font-size="39" font-weight="650">120,226</text><text x="400" y="265" fill="#c7dbe6" font-size="16">evaluated requests</text>
+<text x="780" y="235" fill="white" font-size="39" font-weight="650">7 scenarios</text><text x="780" y="265" fill="#c7dbe6" font-size="16">28 distinct workflow cases</text>
+<text x="60" y="312" fill="#a8bfce" font-size="14">DECISION INDEX 0.2.1 · COMPLETE SUITE</text></g></svg>
