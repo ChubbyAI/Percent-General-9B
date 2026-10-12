@@ -41,7 +41,7 @@ Decision Index **0.2.1完整38项全量评测**，共 **120,226条请求**，本
 
 对比表中，**每行最高分加粗，并列最高均加粗**；Δ Jev不参与最高分比较。
 
-![完整全量评测与公开结果比较](https://raw.githubusercontent.com/ChubbyAI/Percent-General-9B/0db547650358c88719e98e1a76bfa6f5c442b0b0/decision_index.svg)
+![完整全量评测与公开结果比较](https://raw.githubusercontent.com/ChubbyAI/Percent-General-9B/main/decision_index.svg?v=22ece36843180069)
 
 | Model | Complete 38 benchmarks |
 | --- | --- |
@@ -66,7 +66,7 @@ Decision Index **0.2.1完整38项全量评测**，共 **120,226条请求**，本
 
 Jev领域分数保留公开来源的一位小数精度。
 
-![五个领域与StartLux-Decision-27B、Jev 1.13比较](https://raw.githubusercontent.com/ChubbyAI/Percent-General-9B/0db547650358c88719e98e1a76bfa6f5c442b0b0/areas.svg)
+![五个领域与StartLux-Decision-27B、Jev 1.13比较](https://raw.githubusercontent.com/ChubbyAI/Percent-General-9B/main/areas.svg?v=e9735b57d3468733)
 
 相对27B公开skill，优势包括PhishNChips、SATA-Bench、CLadder和iSarcasmEval；短板包括 GSM8K 54.92 vs 95.3、BRIGHT 27.68 vs 43.5、ACOS 37.47 vs 50.4、ToolRet 53.42 vs 64.3。总分优势未覆盖所有任务。
 
