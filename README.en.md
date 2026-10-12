@@ -41,7 +41,7 @@ These are selected successful cases, not an overall success-rate estimate. All a
 
 Comparison tables bold **the highest score in each row, including all ties**. Δ Jev is excluded from the maximum-score comparison.
 
-![Complete evaluation versus published peer results](decision_index.svg)
+![Complete evaluation versus published peer results](https://raw.githubusercontent.com/ChubbyAI/Percent-General-9B/0db547650358c88719e98e1a76bfa6f5c442b0b0/decision_index.svg)
 
 | Model | Complete 38 benchmarks |
 | --- | --- |
@@ -66,7 +66,7 @@ The local reference aggregate is **13.58 points above** Jev 1.13's published sco
 
 Jev area values retain their published one-decimal precision.
 
-![Five-area comparison with StartLux-Decision-27B and Jev 1.13](areas.svg)
+![Five-area comparison with StartLux-Decision-27B and Jev 1.13](https://raw.githubusercontent.com/ChubbyAI/Percent-General-9B/0db547650358c88719e98e1a76bfa6f5c442b0b0/areas.svg)
 
 Relative to the published 27B skill scores, strengths include PhishNChips, SATA-Bench, CLadder and iSarcasmEval. Remaining deficits include GSM8K 54.92 vs 95.3, BRIGHT 27.68 vs 43.5, ACOS 37.47 vs 50.4, and ToolRet 53.42 vs 64.3. The aggregate advantage does not extend to every benchmark.
 
