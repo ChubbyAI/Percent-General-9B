@@ -196,4 +196,4 @@ Jev领域分数保留公开来源的一位小数精度。
 
 链接提供各基准的数据来源；本仓库不重新分发完整题目。
 
-同行结果与展示结构参考[StartLuxLabs/StartLux-Decision固定版本](https://github.com/StartLuxLabs/StartLux-Decision/tree/0e7a2e81b9c92756e26d8edd843a44d50e362669)。其他榜单系统的数值为该来源记录的2026-09-28快照。本文展示Decision Index 0.2.1完整评测结果。
+同行结果与展示结构参考[StartLuxLabs/StartLux-Decision固定版本](https://github.com/StartLuxLabs/StartLux-Decision/tree/0e7a2e81b9c92756e26d8edd843a44d50e362669)。本文展示Decision Index 0.2.1完整评测结果。

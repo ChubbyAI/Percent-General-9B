@@ -196,4 +196,4 @@ These results use **Decision Index 0.2.1**. Upstream data-source links:
 
 The links provide the sources for the benchmarks. Full benchmark questions are not redistributed here.
 
-Peer results and presentation structure reference the [pinned StartLuxLabs/StartLux-Decision release](https://github.com/StartLuxLabs/StartLux-Decision/tree/0e7a2e81b9c92756e26d8edd843a44d50e362669). Scores for the other leaderboard systems are the 2026-09-28 snapshot recorded by that source. This README presents the complete Decision Index 0.2.1 evaluation.
+Peer results and presentation structure reference the [pinned StartLuxLabs/StartLux-Decision release](https://github.com/StartLuxLabs/StartLux-Decision/tree/0e7a2e81b9c92756e26d8edd843a44d50e362669). This README presents the complete Decision Index 0.2.1 evaluation.
