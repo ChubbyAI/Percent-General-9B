@@ -4,7 +4,7 @@
 
 五个对 Jev 1.13.0 的成功记录，以及一局对 StartLux-Decision-v1-27B 的国际象棋胜局。案例从探索过程中筛选，不代表总体胜率或整体能力领先。模型输入为结构化状态和候选动作；购物、客服均为仿真，网页重放实际动作。
 
-交互网页使用 docs 目录作为 GitHub Pages 发布源。GitHub 的 HTML 文件页面显示源码，应从仓库 Settings → Pages 中取得已部署的公开网址后分享。启用前不要把本机预览链接当公网入口。
+[打开交互Demo](https://chubbyai.github.io/Percent-General-9B/) · [英文概览](https://chubbyai.github.io/Percent-General-9B/overview.en.html) · [下载全部6个GIF](docs/gifs.zip)
 
 | 案例 | 已记录结果 | GIF |
 | --- | --- | --- |

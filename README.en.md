@@ -24,7 +24,7 @@ The **complete Decision Index 0.2.1 evaluation covers all 38 benchmarks** and **
 
 Five successful records against **Jev 1.13.0**, plus one chess win against **StartLux-Decision-v1-27B**. These actual runs were selected during exploration and **do not represent overall win rates or general superiority**.
 
-[Interactive playback guide and full trajectories](DEMOS.md) · [Download all six GIFs](docs/gifs.zip)
+[Open interactive demo](https://chubbyai.github.io/Percent-General-9B/) · [Cases and full trajectories](DEMOS.md) · [Download all six GIFs](docs/gifs.zip)
 
 <table>
   <tr>

@@ -24,7 +24,7 @@ Decision Index **0.2.1完整38项全量评测**，共 **120,226条请求**，本
 
 五个对 **Jev 1.13.0** 的成功记录，以及一局对 **StartLux-Decision-v1-27B** 的国际象棋胜局。以下为探索过程中筛选的实际记录，**不代表总体胜率或整体能力领先**。
 
-[交互回放说明与完整轨迹](DEMOS.zh-CN.md) · [下载全部6个GIF](docs/gifs.zip)
+[打开交互Demo](https://chubbyai.github.io/Percent-General-9B/) · [案例与完整轨迹](DEMOS.zh-CN.md) · [下载全部6个GIF](docs/gifs.zip)
 
 <table>
   <tr>

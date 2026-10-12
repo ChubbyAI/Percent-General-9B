@@ -4,7 +4,7 @@
 
 Five selected successes against Jev 1.13.0, plus a chess win against StartLux-Decision-v1-27B. These are exploratory success selections, not an overall win-rate estimate or evidence of general superiority. The models receive structured states and candidate actions; shopping and support are simulated workflows.
 
-The browser replay is served by GitHub Pages from the docs directory. Repository HTML file views show source; use the repository's deployed Pages URL to open the interactive page. Pages must be enabled before sharing that URL.
+[Open interactive demo](https://chubbyai.github.io/Percent-General-9B/) · [English overview](https://chubbyai.github.io/Percent-General-9B/overview.en.html) · [Download all six GIFs](docs/gifs.zip)
 
 | Case | Recorded result | GIF |
 | --- | --- | --- |
