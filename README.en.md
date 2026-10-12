@@ -22,20 +22,26 @@ The **complete Decision Index 0.2.1 evaluation covers all 38 benchmarks** and **
 
 ## Demo: selected successful cases
 
-The following four cases come from **actual Percent-General-9B runs**. Each completed its task with **zero rule violations**. The cards show recorded actions and candidate probabilities; longer trajectories display selected steps.
+Five successful records against **Jev 1.13.0**, plus one chess win against **StartLux-Decision-v1-27B**. These actual runs were selected during exploration and **do not represent overall win rates or general superiority**.
+
+[Interactive playback guide and full trajectories](DEMOS.md) · [Download all six GIFs](docs/gifs.zip)
 
 <table>
   <tr>
-    <td width="50%"><img src="demo-incident_0.en.svg" alt="Inspect a release, roll back, verify recovery and close the incident" /><br /><b>Incident recovery</b>: inspect the release → roll back → end-to-end verification → close; <b>4 steps, 4 simulated minutes, zero violations</b>.</td>
-    <td width="50%"><img src="demo-delivery_2.en.svg" alt="Complete four deliveries after a road closure and return to the depot" /><br /><b>Dynamic delivery</b>: the A–B road closes during the route; <b>all four orders arrive on time</b>, followed by a return to the depot; 9 steps and 33 simulated minutes.</td>
+    <td width="50%"><a href="docs/media/chess.gif"><img src="docs/media/chess.gif" alt="Chess：Checkmate with 40…Rxd1# as Black against StartLux-Decision-v1-27B." /></a><br /><b>Chess</b>：Checkmate with 40…Rxd1# as Black against StartLux-Decision-v1-27B.</td>
+    <td width="50%"><a href="docs/media/tic-tac-toe.gif"><img src="docs/media/tic-tac-toe.gif" alt="Tic-tac-toe：Won as the second player with a top-row line after 6 moves." /></a><br /><b>Tic-tac-toe</b>：Won as the second player with a top-row line after 6 moves.</td>
   </tr>
   <tr>
-    <td><img src="demo-support_2.en.svg" alt="Diagnose, back up, obtain consent, reset and verify connectivity" /><br /><b>Configuration recovery</b>: diagnose → back up → obtain explicit consent → reset → verify → notify → close; <b>7 steps, zero violations</b>.</td>
-    <td><img src="demo-schedule_2.en.svg" alt="Refresh the calendar and rebook after a concurrent room booking" /><br /><b>Scheduling conflict</b>: the first booking encounters a concurrent reservation; refresh the calendar, book S2, verify the receipt and notify participants; <b>7 steps, zero violations</b>.</td>
+    <td width="50%"><a href="docs/media/connect-four.gif"><img src="docs/media/connect-four.gif" alt="Connect Four：Won as the first player with four in a row on move 19." /></a><br /><b>Connect Four</b>：Won as the first player with four in a row on move 19.</td>
+    <td width="50%"><a href="docs/media/othello.gif"><img src="docs/media/othello.gif" alt="Othello：Won as White, 36–28, with three corners." /></a><br /><b>Othello</b>：Won as White, 36–28, with three corners.</td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="docs/media/shopping-notebook.gif"><img src="docs/media/shopping-notebook.gif" alt="Simulated shopping：Completed in 10 actions: lowest-price compliant bundle, ¥29.90, office delivery and verified receipt." /></a><br /><b>Simulated shopping</b>：Completed in 10 actions: lowest-price compliant bundle, ¥29.90, office delivery and verified receipt.</td>
+    <td width="50%"><a href="docs/media/support-resolution.gif"><img src="docs/media/support-resolution.gif" alt="Simulated customer support：Applied the simulated seven-day return policy and verified and closed the ticket in 7 actions." /></a><br /><b>Simulated customer support</b>：Applied the simulated seven-day return policy and verified and closed the ticket in 7 actions.</td>
   </tr>
 </table>
 
-These are selected successful cases, not an overall success-rate estimate. All actions execute in simulated environments. Customer notifications use fixed templates populated from verified fields; displayed probabilities are candidate action scores.
+The model receives structured states and candidate actions. The page and GIFs replay recorded states, actions and candidate probabilities; these are not win probabilities. Shopping and customer support are simulated. See the [case notes](DEMOS.md) for all exploratory results and the known limitations of the original chess input protocol.
 
 ## Complete evaluation comparison
 

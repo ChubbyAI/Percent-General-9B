@@ -22,20 +22,26 @@ Decision Index **0.2.1完整38项全量评测**，共 **120,226条请求**，本
 
 ## Demo：精选成功案例
 
-以下4个案例来自 **Percent-General-9B实际运行记录**，均完成业务目标且 **0违规**。图片展示已记录的动作和候选概率；较长轨迹仅选取部分步骤。
+五个对 **Jev 1.13.0** 的成功记录，以及一局对 **StartLux-Decision-v1-27B** 的国际象棋胜局。以下为探索过程中筛选的实际记录，**不代表总体胜率或整体能力领先**。
+
+[交互回放说明与完整轨迹](DEMOS.zh-CN.md) · [下载全部6个GIF](docs/gifs.zip)
 
 <table>
   <tr>
-    <td width="50%"><img src="demo-incident_0.svg" alt="检查发布、回滚、验证并关闭故障工单" /><br /><b>故障恢复</b>：检查发布 → 回滚 → 端到端验证 → 关闭；<b>4步、模拟4分钟、0违规</b>。</td>
-    <td width="50%"><img src="demo-delivery_2.svg" alt="道路关闭后完成四单配送并回仓" /><br /><b>动态配送</b>：途中A–B道路关闭；<b>4单均按时送达</b>，9步、模拟33分钟完成并回仓。</td>
+    <td width="50%"><a href="docs/media/chess.gif"><img src="docs/media/chess.gif" alt="国际象棋：执黑以40…Rxd1#将杀获胜；对手StartLux-Decision-v1-27B。" /></a><br /><b>国际象棋</b>：执黑以40…Rxd1#将杀获胜；对手StartLux-Decision-v1-27B。</td>
+    <td width="50%"><a href="docs/media/tic-tac-toe.gif"><img src="docs/media/tic-tac-toe.gif" alt="井字棋：后手6次落子完成顶行三连。" /></a><br /><b>井字棋</b>：后手6次落子完成顶行三连。</td>
   </tr>
   <tr>
-    <td><img src="demo-support_2.svg" alt="先诊断和备份、征得同意后重置、验证连接" /><br /><b>售后配置恢复</b>：诊断 → 备份 → 明确同意 → 重置 → 验证 → 通知 → 结束；<b>7步、0违规</b>。</td>
-    <td><img src="demo-schedule_2.svg" alt="会议室被占用后刷新日历重新预订" /><br /><b>会议冲突处理</b>：首次预订发生并发冲突，刷新日历后预订S2、核验回执并通知；<b>7步、0违规</b>。</td>
+    <td width="50%"><a href="docs/media/connect-four.gif"><img src="docs/media/connect-four.gif" alt="四子棋：先手第19次落子完成四连。" /></a><br /><b>四子棋</b>：先手第19次落子完成四连。</td>
+    <td width="50%"><a href="docs/media/othello.gif"><img src="docs/media/othello.gif" alt="黑白棋：执白以36:28获胜，取得三个角位。" /></a><br /><b>黑白棋</b>：执白以36:28获胜，取得三个角位。</td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="docs/media/shopping-notebook.gif"><img src="docs/media/shopping-notebook.gif" alt="模拟购物：10步选中最低价合规套装，29.90元送到办公室并核对回执。" /></a><br /><b>模拟购物</b>：10步选中最低价合规套装，29.90元送到办公室并核对回执。</td>
+    <td width="50%"><a href="docs/media/support-resolution.gif"><img src="docs/media/support-resolution.gif" alt="客服工单仿真：按仿真环境的七天退货规则处理超期请求，7步完成核验与关闭。" /></a><br /><b>客服工单仿真</b>：按仿真环境的七天退货规则处理超期请求，7步完成核验与关闭。</td>
   </tr>
 </table>
 
-这些是精选成功案例，不代表全部场景的成功率。操作均在模拟环境执行；客服通知使用基于已核验字段的固定模板，所示概率为候选动作评分。
+模型接收结构化状态和候选动作；页面与GIF回放已记录的状态、动作及候选概率，概率不表示获胜概率。购物、客服均为仿真。完整探索战绩及国际象棋原输入协议的已知限制见[案例说明](DEMOS.zh-CN.md)。
 
 ## 完整全量评测对比
 
