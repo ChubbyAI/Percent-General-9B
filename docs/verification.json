@@ -1,0 +1,111 @@
+{
+  "kind": "project_record_checks",
+  "recorded_date": "2026-10-12",
+  "selected_cases": 6,
+  "selected_successful": true,
+  "verification_scope": "project-maintained record replay and saved response checks",
+  "source_exploration_results": {
+    "chess_vs_startlux": {
+      "wins": 1,
+      "losses": 15,
+      "draws": 36
+    },
+    "tic_tac_toe": {
+      "wins": 1,
+      "losses": 1
+    },
+    "connect_four": {
+      "wins": 1,
+      "losses": 1
+    },
+    "othello": {
+      "wins": 1,
+      "losses": 3
+    },
+    "shopping": {
+      "wins": 2,
+      "ties": 1
+    },
+    "support": {
+      "wins": 1,
+      "ties": 11
+    }
+  },
+  "execution_counts": {
+    "chess": {
+      "book": 6,
+      "model_choices": 73,
+      "rule_steps": 1
+    },
+    "tic-tac-toe": {
+      "ours": {
+        "actions": 3,
+        "model_choices": 3,
+        "rule_steps": 0
+      },
+      "jev": {
+        "actions": 3,
+        "model_choices": 3,
+        "rule_steps": 0
+      }
+    },
+    "connect-four": {
+      "ours": {
+        "actions": 10,
+        "model_choices": 10,
+        "rule_steps": 0
+      },
+      "jev": {
+        "actions": 9,
+        "model_choices": 9,
+        "rule_steps": 0
+      }
+    },
+    "othello": {
+      "ours": {
+        "actions": 30,
+        "model_choices": 29,
+        "rule_steps": 1
+      },
+      "jev": {
+        "actions": 30,
+        "model_choices": 28,
+        "rule_steps": 2
+      }
+    },
+    "shopping-notebook": {
+      "ours": {
+        "actions": 10,
+        "model_choices": 10,
+        "rule_steps": 0
+      },
+      "jev": {
+        "actions": 24,
+        "model_choices": 24,
+        "rule_steps": 0
+      }
+    },
+    "support-resolution": {
+      "ours": {
+        "actions": 7,
+        "model_choices": 6,
+        "rule_steps": 1
+      },
+      "jev": {
+        "actions": 14,
+        "model_choices": 13,
+        "rule_steps": 1
+      }
+    }
+  },
+  "probabilities": "original candidate values; rounding retained; not calibrated outcome probabilities",
+  "playback_data": "display states and original candidate distributions only",
+  "chess_input_protocol": {
+    "recorded_protocol": "rich",
+    "known_source_issue": "An immediate-capture description was incorrect in another game of the same run.",
+    "mate_notation": "upstream # normalized to +",
+    "shared_input_rules_and_complete_legal_candidates": true,
+    "selected_game_legal_move_replay": "passed",
+    "corrected_capture_description_gpu_matches_tested": false
+  }
+}
